@@ -39,7 +39,6 @@ class QuotesListViewController: UIViewController {
             switch result {
             case .success(let data):
                 self.data = data
-                print(data)
             case .failure(let failure):
                 print(failure)
             }

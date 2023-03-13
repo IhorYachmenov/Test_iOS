@@ -8,18 +8,18 @@
 import UIKit
 
 class QuoteDetailsViewController: UIViewController {
-    
+    /// ViewModels
+    private lazy var viewModel: QuotesListDetailInterface = QuotesListDetailViewModel()
+    /// Data Properties
     private var quote: PresentationModel.Quote? = nil
     
+    /// UI Properties
     let symbolLabel = UILabel()
     let nameLabel = UILabel()
     let lastLabel = UILabel()
     let currencyLabel = UILabel()
     let readableLastChangePercentLabel = UILabel()
     let favoriteButton = UIButton()
-    
-    
-    
     
     init(quote: PresentationModel.Quote) {
         super.init(nibName: nil, bundle: nil)
@@ -45,7 +45,6 @@ class QuoteDetailsViewController: UIViewController {
     }
     
     func addSubviews() {
-        
         symbolLabel.textAlignment = .center
         symbolLabel.font = .boldSystemFont(ofSize: 40)
         
@@ -129,6 +128,7 @@ class QuoteDetailsViewController: UIViewController {
     
     
     @objc func didPressFavoriteButton(_ sender:UIButton!) {
-        // TODO
+        guard quote != nil else { return }
+        viewModel.addToFavorite(data: quote!)
     }
 }
