@@ -9,7 +9,7 @@ import UIKit
 
 class QuoteDetailsViewController: UIViewController {
     
-    private var quote:Quote? = nil
+    private var quote: PresentationModel.Quote? = nil
     
     let symbolLabel = UILabel()
     let nameLabel = UILabel()
@@ -21,7 +21,7 @@ class QuoteDetailsViewController: UIViewController {
     
     
     
-    init(quote:Quote) {
+    init(quote: PresentationModel.Quote) {
         super.init(nibName: nil, bundle: nil)
         self.quote = quote
     }
@@ -40,7 +40,7 @@ class QuoteDetailsViewController: UIViewController {
         nameLabel.text = quote?.name
         lastLabel.text = quote?.last
         currencyLabel.text = quote?.currency
-        readableLastChangePercentLabel.text = quote?.readableLastChangePercent
+        readableLastChangePercentLabel.text = quote?.percent
         
     }
     

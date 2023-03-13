@@ -11,10 +11,18 @@
 		1AA3C89B263AA2030041430A /* QuotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3C89A263AA2030041430A /* QuotesListViewController.swift */; };
 		1AA3C8A0263AA2040041430A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA3C89F263AA2040041430A /* Assets.xcassets */; };
 		1AA3C8A3263AA2040041430A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA3C8A1263AA2040041430A /* LaunchScreen.storyboard */; };
-		1AA3C8B2263AA8360041430A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3C8B1263AA8360041430A /* DataManager.swift */; };
+		1AA3C8B2263AA8360041430A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3C8B1263AA8360041430A /* NetworkManager.swift */; };
 		1AA3C8B6263AB26C0041430A /* QuoteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3C8B5263AB26C0041430A /* QuoteDetailsViewController.swift */; };
 		1AA3C8BA263AB2980041430A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3C8B9263AB2980041430A /* Quote.swift */; };
 		1AC78CBF263C6686004D4F8F /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC78CBE263C6686004D4F8F /* Market.swift */; };
+		CE564FE729BF579C00E95085 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE564FE629BF579C00E95085 /* NetworkModel.swift */; };
+		CE564FEE29BF5EC000E95085 /* QuotesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE564FED29BF5EC000E95085 /* QuotesListViewModel.swift */; };
+		CE564FF129BF5F3400E95085 /* QuotesListInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE564FF029BF5F3400E95085 /* QuotesListInterface.swift */; };
+		CE564FF429BF62A300E95085 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE564FF329BF62A300E95085 /* Optional.swift */; };
+		CE564FFA29BF64B300E95085 /* QuotesListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE564FF929BF64B300E95085 /* QuotesListViewCell.swift */; };
+		CE564FFC29BF651100E95085 /* QuitesListViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE564FFB29BF651100E95085 /* QuitesListViewConfigurator.swift */; };
+		CE564FFE29BF654000E95085 /* QuotesListViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE564FFD29BF654000E95085 /* QuotesListViewContentView.swift */; };
+		CE8B79A329BF555A002D646B /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B79A229BF555A002D646B /* NSError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +32,18 @@
 		1AA3C89F263AA2040041430A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA3C8A2263AA2040041430A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AA3C8A4263AA2040041430A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AA3C8B1263AA8360041430A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1AA3C8B1263AA8360041430A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1AA3C8B5263AB26C0041430A /* QuoteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailsViewController.swift; sourceTree = "<group>"; };
 		1AA3C8B9263AB2980041430A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		1AC78CBE263C6686004D4F8F /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		CE564FE629BF579C00E95085 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		CE564FED29BF5EC000E95085 /* QuotesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListViewModel.swift; sourceTree = "<group>"; };
+		CE564FF029BF5F3400E95085 /* QuotesListInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListInterface.swift; sourceTree = "<group>"; };
+		CE564FF329BF62A300E95085 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		CE564FF929BF64B300E95085 /* QuotesListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListViewCell.swift; sourceTree = "<group>"; };
+		CE564FFB29BF651100E95085 /* QuitesListViewConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitesListViewConfigurator.swift; sourceTree = "<group>"; };
+		CE564FFD29BF654000E95085 /* QuotesListViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListViewContentView.swift; sourceTree = "<group>"; };
+		CE8B79A229BF555A002D646B /* NSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,41 +76,129 @@
 		1AA3C895263AA2030041430A /* Technical-test */ = {
 			isa = PBXGroup;
 			children = (
-				1AA3C8B0263AA8220041430A /* Manager */,
-				1AA3C8AC263AA2D90041430A /* Model */,
-				1AA3C8AB263AA2D10041430A /* View */,
-				1AA3C896263AA2030041430A /* AppDelegate.swift */,
-				1AA3C89F263AA2040041430A /* Assets.xcassets */,
-				1AA3C8A1263AA2040041430A /* LaunchScreen.storyboard */,
-				1AA3C8A4263AA2040041430A /* Info.plist */,
+				1AA3C8AB263AA2D10041430A /* ViewLayer */,
+				CE564FE929BF5B3200E95085 /* PresentationLayer */,
+				CE564FEA29BF5B5C00E95085 /* NetworkLayer */,
+				1AA3C8AC263AA2D90041430A /* Entities */,
+				CE8B79A129BF554C002D646B /* Extension */,
+				CE564FEB29BF5DA600E95085 /* Application */,
+				CE564FEC29BF5DCC00E95085 /* Resources */,
 			);
 			path = "Technical-test";
 			sourceTree = "<group>";
 		};
-		1AA3C8AB263AA2D10041430A /* View */ = {
+		1AA3C8AB263AA2D10041430A /* ViewLayer */ = {
 			isa = PBXGroup;
 			children = (
-				1AA3C89A263AA2030041430A /* QuotesListViewController.swift */,
-				1AA3C8B5263AB26C0041430A /* QuoteDetailsViewController.swift */,
+				CE564FF629BF646900E95085 /* Views */,
+				CE564FF529BF644900E95085 /* ViewControllers */,
 			);
-			path = View;
+			path = ViewLayer;
 			sourceTree = "<group>";
 		};
-		1AA3C8AC263AA2D90041430A /* Model */ = {
+		1AA3C8AC263AA2D90041430A /* Entities */ = {
 			isa = PBXGroup;
 			children = (
 				1AA3C8B9263AB2980041430A /* Quote.swift */,
 				1AC78CBE263C6686004D4F8F /* Market.swift */,
 			);
-			path = Model;
+			path = Entities;
 			sourceTree = "<group>";
 		};
-		1AA3C8B0263AA8220041430A /* Manager */ = {
+		CE564FE829BF5B1300E95085 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				1AA3C8B1263AA8360041430A /* DataManager.swift */,
+				CE564FEF29BF5F2100E95085 /* Interfaces */,
+				CE564FED29BF5EC000E95085 /* QuotesListViewModel.swift */,
 			);
-			path = Manager;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE564FE929BF5B3200E95085 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE564FE829BF5B1300E95085 /* ViewModels */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		CE564FEA29BF5B5C00E95085 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE564FE629BF579C00E95085 /* NetworkModel.swift */,
+				1AA3C8B1263AA8360041430A /* NetworkManager.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		CE564FEB29BF5DA600E95085 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1AA3C896263AA2030041430A /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CE564FEC29BF5DCC00E95085 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AA3C8A4263AA2040041430A /* Info.plist */,
+				1AA3C89F263AA2040041430A /* Assets.xcassets */,
+				1AA3C8A1263AA2040041430A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE564FEF29BF5F2100E95085 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				CE564FF029BF5F3400E95085 /* QuotesListInterface.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		CE564FF529BF644900E95085 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AA3C89A263AA2030041430A /* QuotesListViewController.swift */,
+				1AA3C8B5263AB26C0041430A /* QuoteDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE564FF629BF646900E95085 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE564FF729BF647300E95085 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE564FF729BF647300E95085 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE564FF829BF649800E95085 /* QuotesListViewCellComponent */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE564FF829BF649800E95085 /* QuotesListViewCellComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CE564FF929BF64B300E95085 /* QuotesListViewCell.swift */,
+				CE564FFB29BF651100E95085 /* QuitesListViewConfigurator.swift */,
+				CE564FFD29BF654000E95085 /* QuotesListViewContentView.swift */,
+			);
+			path = QuotesListViewCellComponent;
+			sourceTree = "<group>";
+		};
+		CE8B79A129BF554C002D646B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE8B79A229BF555A002D646B /* NSError.swift */,
+				CE564FF329BF62A300E95085 /* Optional.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +271,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA3C8B6263AB26C0041430A /* QuoteDetailsViewController.swift in Sources */,
+				CE564FF429BF62A300E95085 /* Optional.swift in Sources */,
+				CE564FEE29BF5EC000E95085 /* QuotesListViewModel.swift in Sources */,
+				CE564FFC29BF651100E95085 /* QuitesListViewConfigurator.swift in Sources */,
 				1AA3C89B263AA2030041430A /* QuotesListViewController.swift in Sources */,
-				1AA3C8B2263AA8360041430A /* DataManager.swift in Sources */,
+				CE8B79A329BF555A002D646B /* NSError.swift in Sources */,
+				CE564FE729BF579C00E95085 /* NetworkModel.swift in Sources */,
+				CE564FFE29BF654000E95085 /* QuotesListViewContentView.swift in Sources */,
+				1AA3C8B2263AA8360041430A /* NetworkManager.swift in Sources */,
+				CE564FFA29BF64B300E95085 /* QuotesListViewCell.swift in Sources */,
 				1AA3C8BA263AB2980041430A /* Quote.swift in Sources */,
 				1AA3C897263AA2030041430A /* AppDelegate.swift in Sources */,
+				CE564FF129BF5F3400E95085 /* QuotesListInterface.swift in Sources */,
 				1AC78CBF263C6686004D4F8F /* Market.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Technical-test/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -295,6 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Technical-test/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -312,7 +426,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36C3524M7W;
-				INFOPLIST_FILE = "Technical-test/Info.plist";
+				INFOPLIST_FILE = "Technical-test/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36C3524M7W;
-				INFOPLIST_FILE = "Technical-test/Info.plist";
+				INFOPLIST_FILE = "Technical-test/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
